@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name= 'randomrecommender', 
+    name= 'movie_recommender_package', 
     version= 0.1, 
     description= 'A simple random movie recomender package',
     author = 'MLP, with support from Arjun',
-    url =, #place github link here
+    url ='https://github.com/MLPix/python_package',
     packages=['recommender_movie'],
     package_data={'recommender_movie':['data/*.txt']},
     install_requires = ['numpy','pandas']
